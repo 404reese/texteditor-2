@@ -4,192 +4,13 @@
     {
       "type": "heading",
       "attrs": {
-        "textAlign": null,
+        "textAlign": "left",
         "level": 1
       },
       "content": [
         {
           "type": "text",
-          "text": "Getting started"
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": null
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Welcome to the "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "italic"
-            },
-            {
-              "type": "highlight",
-              "attrs": {
-                "color": "var(--tt-color-highlight-yellow)"
-              }
-            }
-          ],
-          "text": "Simple Editor"
-        },
-        {
-          "type": "text",
-          "text": " template! This template integrates "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "bold"
-            }
-          ],
-          "text": "open source"
-        },
-        {
-          "type": "text",
-          "text": " UI components and Tiptap extensions licensed under "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "bold"
-            }
-          ],
-          "text": "MIT"
-        },
-        {
-          "type": "text",
-          "text": "."
-        }
-      ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": null
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Integrate it by following the "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "link",
-              "attrs": {
-                "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor",
-                "target": "_blank",
-                "rel": "noopener noreferrer nofollow",
-                "class": null
-              }
-            }
-          ],
-          "text": "Tiptap UI Components docs"
-        },
-        {
-          "type": "text",
-          "text": " or using our CLI tool."
-        }
-      ]
-    },
-    {
-      "type": "codeBlock",
-      "attrs": {
-        "language": null
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "npx @tiptap/cli init"
-        }
-      ]
-    },
-    {
-      "type": "heading",
-      "attrs": {
-        "textAlign": null,
-        "level": 2
-      },
-      "content": [
-        {
-          "type": "text",
-          "text": "Features"
-        }
-      ]
-    },
-    {
-      "type": "blockquote",
-      "content": [
-        {
-          "type": "paragraph",
-          "attrs": {
-            "textAlign": null
-          },
-          "content": [
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "italic"
-                }
-              ],
-              "text": "A fully responsive rich text editor with built-in support for common formatting and layout tools. Type markdown "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "code"
-                }
-              ],
-              "text": "**"
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "italic"
-                }
-              ],
-              "text": " or use keyboard shortcuts "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "code"
-                }
-              ],
-              "text": "⌘+B"
-            },
-            {
-              "type": "text",
-              "text": " for "
-            },
-            {
-              "type": "text",
-              "marks": [
-                {
-                  "type": "strike"
-                }
-              ],
-              "text": "most"
-            },
-            {
-              "type": "text",
-              "text": " all common markdown marks. 🪄"
-            }
-          ]
+          "text": "PATIENT CONSULTATION REPORT"
         }
       ]
     },
@@ -201,33 +22,98 @@
       "content": [
         {
           "type": "text",
-          "text": "Add images, customize alignment, and apply "
+          "text": "Patient Name: "
         },
         {
           "type": "text",
           "marks": [
             {
-              "type": "highlight",
-              "attrs": {
-                "color": "var(--tt-color-highlight-blue)"
-              }
+              "type": "bold"
             }
           ],
-          "text": "advanced formatting"
-        },
-        {
-          "type": "text",
-          "text": " to make your writing more engaging and professional."
+          "text": "John Doe"
         }
       ]
     },
     {
-      "type": "image",
+      "type": "paragraph",
       "attrs": {
-        "src": "/images/tiptap-ui-placeholder-image.jpg",
-        "alt": "placeholder-image",
-        "title": "placeholder-image"
-      }
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Date: "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "20-Jan-2025"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Doctor: "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "Dr. Jane Smith"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "textAlign": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Chief Complaint"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Patient reports recurring headaches and intermittent dizziness over the last 3 weeks."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "textAlign": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Medical History"
+        }
+      ]
     },
     {
       "type": "bulletList",
@@ -243,55 +129,7 @@
               "content": [
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Superscript"
-                },
-                {
-                  "type": "text",
-                  "text": " (x"
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "superscript"
-                    }
-                  ],
-                  "text": "2"
-                },
-                {
-                  "type": "text",
-                  "text": ") and "
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Subscript"
-                },
-                {
-                  "type": "text",
-                  "text": " (H"
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "subscript"
-                    }
-                  ],
-                  "text": "2"
-                },
-                {
-                  "type": "text",
-                  "text": "O) for precision."
+                  "text": "Hypertension"
                 }
               ]
             }
@@ -308,83 +146,30 @@
               "content": [
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "Typographic conversion"
-                },
+                  "text": "Type 2 Diabetes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": "left"
+              },
+              "content": [
                 {
                   "type": "text",
-                  "text": ": automatically convert to "
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "code"
-                    }
-                  ],
-                  "text": "->"
-                },
-                {
-                  "type": "text",
-                  "text": " an arrow "
-                },
-                {
-                  "type": "text",
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "text": "→"
-                },
-                {
-                  "type": "text",
-                  "text": "."
+                  "text": "Vitamin D deficiency"
                 }
               ]
             }
           ]
         }
       ]
-    },
-    {
-      "type": "paragraph",
-      "attrs": {
-        "textAlign": "left"
-      },
-      "content": [
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "italic"
-            }
-          ],
-          "text": "→ "
-        },
-        {
-          "type": "text",
-          "marks": [
-            {
-              "type": "link",
-              "attrs": {
-                "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor#features",
-                "target": "_blank",
-                "rel": "noopener noreferrer nofollow",
-                "class": null
-              }
-            }
-          ],
-          "text": "Learn more"
-        }
-      ]
-    },
-    {
-      "type": "horizontalRule"
     },
     {
       "type": "heading",
@@ -395,19 +180,123 @@
       "content": [
         {
           "type": "text",
-          "text": "Make it your own"
+          "text": "Current Medications"
         }
       ]
     },
     {
-      "type": "paragraph",
+      "type": "orderedList",
+      "content": [
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Metformin 500mg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Amlodipine 5mg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "listItem",
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Vitamin D3 2000 IU"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
       "attrs": {
-        "textAlign": "left"
+        "textAlign": "left",
+        "level": 2
       },
       "content": [
         {
           "type": "text",
-          "text": "Switch between light and dark modes, and tailor the editor's appearance with customizable CSS to match your style."
+          "text": "Important Notes"
+        }
+      ]
+    },
+    {
+      "type": "blockquote",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "The patient stated:"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "textAlign": "left"
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "italic"
+                }
+              ],
+              "text": "\"I feel significantly better in the morning but symptoms worsen after prolonged screen exposure.\""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "textAlign": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Recommended Actions"
         }
       ]
     },
@@ -428,7 +317,7 @@
               "content": [
                 {
                   "type": "text",
-                  "text": "Test template"
+                  "text": "Increase hydration"
                 }
               ]
             }
@@ -437,7 +326,7 @@
         {
           "type": "taskItem",
           "attrs": {
-            "checked": false
+            "checked": true
           },
           "content": [
             {
@@ -448,18 +337,27 @@
               "content": [
                 {
                   "type": "text",
-                  "marks": [
-                    {
-                      "type": "link",
-                      "attrs": {
-                        "href": "https://tiptap.dev/docs/ui-components/templates/simple-editor",
-                        "target": "_blank",
-                        "rel": "noopener noreferrer nofollow",
-                        "class": null
-                      }
-                    }
-                  ],
-                  "text": "Integrate the free template"
+                  "text": "Reduce screen time"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "taskItem",
+          "attrs": {
+            "checked": true
+          },
+          "content": [
+            {
+              "type": "paragraph",
+              "attrs": {
+                "textAlign": "left"
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Follow-up in 14 days"
                 }
               ]
             }
@@ -468,10 +366,252 @@
       ]
     },
     {
+      "type": "heading",
+      "attrs": {
+        "textAlign": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Laboratory Results"
+        }
+      ]
+    },
+    {
       "type": "paragraph",
       "attrs": {
         "textAlign": "left"
-      }
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Hemoglobin: "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "13.8 g/dL"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "HbA1c: "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "6.7%"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Blood Pressure: "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "138/88 mmHg"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "attrs": {
+        "textAlign": "left",
+        "level": 2
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "Special Formatting Test"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "bold"
+            }
+          ],
+          "text": "Bold Text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "italic"
+            }
+          ],
+          "text": "Italic Text"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "underline"
+            }
+          ],
+          "text": "UNDERLINED TEXT"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "This sentence contains words that should be highlighted individually:"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "highlight",
+              "attrs": {
+                "color": "var(--tt-color-highlight-yellow)"
+              }
+            }
+          ],
+          "text": "headache"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "highlight",
+              "attrs": {
+                "color": "var(--tt-color-highlight-green)"
+              }
+            }
+          ],
+          "text": "dizziness"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "highlight",
+              "attrs": {
+                "color": "var(--tt-color-highlight-blue)"
+              }
+            }
+          ],
+          "text": "fatigue"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "highlight",
+              "attrs": {
+                "color": "var(--tt-color-highlight-pink)"
+              }
+            }
+          ],
+          "text": "nausea"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "text",
+          "marks": [
+            {
+              "type": "highlight",
+              "attrs": {
+                "color": "var(--tt-color-highlight-orange)"
+              }
+            }
+          ],
+          "text": "migraine"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": {
+        "textAlign": "left"
+      },
+      "content": [
+        {
+          "type": "text",
+          "text": "End of report."
+        }
+      ]
     }
   ]
 }
